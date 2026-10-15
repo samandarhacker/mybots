@@ -1,7 +1,7 @@
 <?php
 $cn = mysqli_connect("localhost",'u5990_php',"samandar001@","u5990_php");
 
-define('API_KEY', '5254602991:AAGxCBiGV6unzsZicFgPxMPTye_sXPbuVFg');
+define('API_KEY', '8542090176:AAF7mzq33fEd09Gin-_4y5LfbBTWNSxT97M');
 include_once 'functions.php';
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
